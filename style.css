@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+#navBar{
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 25px;
+}
+#img{
+    /* justify-self: start; */
+}
+#menu{
+    margin-left: 400px;
+}
+a{
+    margin-left: 50px;
+    color: black;
+}
+#fullBody{
+    height: 669px;
+    display: flex;
+}
+#text{
+    width: 50%;
+    background-color: bisque;
+    display: block;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    margin-left: 35%;
+    margin-bottom: -22rem;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    margin-left: 13%;
+    font-size: 90px;
+    font-family: Snell Roundhand, cursive;
+}
+p{
+    margin-top: -15rem;
+    font-family: Courier New, monospace;
+    margin-left: 5px;
+}
+#pic{
+    width: 50%;
+    background-image: url("guy.jpg");
+    background-size: cover;
+}
