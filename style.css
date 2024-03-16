@@ -18,10 +18,16 @@ body{
     font-size: 25px;
 }
 #img{
-    /* justify-self: start; */
+    position: absolute;
+    left: 10px;
+    font-size: 40px;
+
 }
 #menu{
-    margin-left: 400px;
+    position: absolute;
+    right: 20px;
+    margin-left: 300px;
+    margin-right: 1%;
 }
 a{
     margin-left: 50px;
@@ -33,27 +39,28 @@ a{
 }
 #text{
     width: 50%;
-    background-color: bisque;
+    color: aliceblue;
+    background-color: rgb(41, 41, 41);
     display: block;
     display: grid;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-content: center;
 }
 h2{
-    margin-left: 35%;
-    margin-bottom: -22rem;
-    font-size: 40px;
+    font-size: 30px;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
 h1{
-    margin-left: 13%;
-    font-size: 90px;
+    text-align: center;
     font-family: Snell Roundhand, cursive;
+    font-size: 65px;
 }
 p{
-    margin-top: -15rem;
     font-family: Courier New, monospace;
-    margin-left: 5px;
+    overflow-wrap: break-word;
+    text-align: center;
+    text-transform: uppercase;
 }
 #pic{
     width: 50%;

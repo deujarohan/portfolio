@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.study{
+    display: inline-block;
+    width: 1535px;
+    height: 727px;
+    display: flex;
+}
+#first,#second,#third{
+    width: 33%;
+    height: 100%;
+    border: solid 1px rgb(255, 255, 255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+#first{
+    background-color: rgb(140, 140, 140);
+}
+#second{
+    background-color: rgb(68, 68, 68);
+}
+#third{
+    background-color: rgb(39, 39, 39);
+}
