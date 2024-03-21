@@ -9,14 +9,15 @@
     display: flex;
 }
 #first,#second,#third{
-    width: 33%;
-    height: 100%;
+    width: 510px;
+    height: 727px;
     border: solid 1px rgb(255, 255, 255);
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 40px;
+    position: absolute;
 }
 #first{
     background-color: rgb(140, 140, 140);
@@ -27,3 +28,25 @@
 #third{
     background-color: rgb(39, 39, 39);
 }
+#first:hover, #second:hover, #third:hover{
+    background-color: transparent;
+    color: transparent;
+}
+#one,#two,#three{
+    width: 510px;
+    height: 727px;
+    border: solid 1px rgb(0, 0, 0);
+    color: black;
+    text-align: center;
+    display: grid;
+    align-items: center;
+}
+h2{
+    display: inline;
+    margin-bottom: -30%;
+}
+p{
+    margin-top: -50%;
+}
+
+

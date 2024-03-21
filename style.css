@@ -29,6 +29,16 @@ body{
     margin-left: 300px;
     margin-right: 1%;
 }
+.border{
+    background-color: transparent;
+    padding: 6px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+.border:hover{
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
 a{
     margin-left: 50px;
     color: black;

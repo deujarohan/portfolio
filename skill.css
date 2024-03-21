@@ -23,6 +23,7 @@ body{
 p{
     font-family: Courier New, monospace;
     margin: 5%;
+    font-weight: 700;
 }
 h2{
     margin: 8px;
